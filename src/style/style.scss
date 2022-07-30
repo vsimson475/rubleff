@@ -1,0 +1,23 @@
+@import './null';
+@import './vars';
+@import './fonts';
+
+html, body {
+    height: 100%;
+}
+
+.container {
+    padding: 0 19.5%;
+}
+
+.link-red {
+    color: #000000;
+
+    transition: $transitionTimeDefault;
+    
+    &:hover,
+    &:active,
+    &._active {
+        color: #FF0000;
+    }
+}
