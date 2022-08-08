@@ -8,6 +8,18 @@ html, body {
 
 .container {
     padding: 0 19.5%;
+
+    @media (max-width: 1366px) {
+        padding: 0 12%;
+    }
+
+    @media (max-width: 1024px) {
+        padding: 0 5%;
+    }
+
+    @media (max-width: 480px) {
+        padding: 0 2%;
+    }
 }
 
 .link-red {

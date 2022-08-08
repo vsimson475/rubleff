@@ -1,5 +1,7 @@
 <template>
-    <div class="price"></div>
+    <div class="price">
+        <slot></slot>
+    </div>
 </template>
 
 <script>
@@ -9,5 +11,9 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+    .price {
+        &::after {
+            content: "₽ ";
+        }
+    }
 </style>

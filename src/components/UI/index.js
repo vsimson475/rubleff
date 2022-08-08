@@ -21,5 +21,6 @@ export default [
     AppTitleBig,
     AppNavigationCatalog,
     AppPriceRuble,
-    AppProducts
+    AppProducts,
+    AppPriceRuble
 ];
